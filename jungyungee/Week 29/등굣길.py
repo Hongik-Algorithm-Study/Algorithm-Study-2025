@@ -1,21 +1,23 @@
 def solution(m, n, puddles):
     path = [[0] * m for _ in range(n)]
-    for i in puddles:
-        path[i[0]][i[1]] = 0
+    puddle_set = {(y-1, x-1) for x, y in puddles}
 
     for i in range(m):
+        if (0, i) in puddle_set:
+            break
         path[0][i] = 1
+
     for i in range(n):
+        if (i, 0) in puddle_set:
+            break
         path[i][0] = 1
 
-    for i in range(1,m):
-        for j in range(1,n):
-            if (i==int(puddles[0][0])-1 and j==int(puddles[0][1])-1):
-                path[i][j]=0
+    for i in range(1, n):
+        for j in range(1, m):
+            if (i, j) in puddle_set:
+                path[i][j] = 0
             else:
-                path[i][j] = path[i][j-1]+path[i-1][j]
+                path[i][j] = (path[i-1][j] + path[i][j-1]) % 1000000007
 
-    answer= path[m][n]
+    answer = path[n-1][m-1]
     return answer
-
-solution(4, 3, [[2,2]])
