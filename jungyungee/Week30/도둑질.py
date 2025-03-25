@@ -13,6 +13,7 @@ def solution(money):
         else:
             dp1[i] = max(dp1[i-1], dp1[i-2] + case1[i])
     result1 = dp1[-1]
+    
     # 맨 뒤의 것 선택
     case2 = money[1:n]
     dp2 = [0] * len(case2)
@@ -20,12 +21,4 @@ def solution(money):
         if i == 0:
             dp2[i] = case2[i]
         elif i == 1:
-            dp2[i] = max(case2[0], case2[1])
-        else:
-            dp2[i] = max(dp2[i-1], dp2[i-2] + case2[i])
-    result2 = dp2[-1]
-
-    answer = max(result1, result2)
-    return answer
-
-solution([1, 3, 4, 1, 2, 4, 1, 3, 2])
+            dp2[i]
