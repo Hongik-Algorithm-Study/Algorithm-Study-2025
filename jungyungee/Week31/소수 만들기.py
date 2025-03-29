@@ -1,15 +1,19 @@
 def solution(nums):
-    even = list()
-    odd = list()
     
-    for i in nums:
-        if i % 2 == 0:
-            even.append(i)
-        else:
-            odd.append(i)
+    sum_list = []
+    for i in range(len(nums)):
+        for j in range(i+1, len(nums)):
+            for k in range(j+1, len(nums)):
+                sum_list.append(nums[i]+nums[j]+nums[k])
     
-    sum_list = set([])
-    sum = 0
-    if (len(odd) >= 3):
-        for i in range(len(odd)):
-   
+    result = 0
+    for n in sum_list:
+        check = True
+        for i in range(2, int(n**0.5)+1):
+            if n % i == 0:
+                check = False
+                break
+        if check == True:
+            result += 1
+    
+    return result
