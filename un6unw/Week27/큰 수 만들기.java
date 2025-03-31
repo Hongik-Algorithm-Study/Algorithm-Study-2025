@@ -17,6 +17,7 @@ public class Solution {
 
         // 결과를 저장할 char 배열
         char[] result = new char[targetLength];
+
         for (int i = 0; i < targetLength; i++) {
             result[i] = stack.get(i);
         }
