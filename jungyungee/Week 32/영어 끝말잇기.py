@@ -19,8 +19,4 @@ def solution(n, words):
             if words[i] in words_set:
                 words_set.discard(words[i])
             else:
-                answer = [i % n + 1, i // n + 1]
-                break
-    return answer
-
-solution(3,	["tank", "kick", "know", "wheel", "land", "dream", "mother", "robot", "tank"])
+                answer = [i % n + 1, i // 
