@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0cb8bfd3-788b-4000-9314-d92843331b33" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/oyatplum/Week35/SQL/특정 옵션이 포함된 자동차 리스트 구하기.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -244,7 +244,8 @@
       <workItem from="1743866685102" duration="852000" />
       <workItem from="1746191299624" duration="145000" />
       <workItem from="1750596922409" duration="731000" />
-      <workItem from="1750724628745" duration="950000" />
+      <workItem from="1750724628745" duration="975000" />
+      <workItem from="1750771924426" duration="9000" />
     </task>
     <servers />
   </component>
