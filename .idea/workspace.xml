@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0cb8bfd3-788b-4000-9314-d92843331b33" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oyatplum/Week35/알고리즘/디스크 컨트롤러.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -246,7 +246,7 @@
       <workItem from="1750596922409" duration="731000" />
       <workItem from="1750724628745" duration="975000" />
       <workItem from="1750771924426" duration="101000" />
-      <workItem from="1750851226758" duration="7000" />
+      <workItem from="1750851226758" duration="683000" />
     </task>
     <servers />
   </component>
