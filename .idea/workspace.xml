@@ -70,6 +70,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/oyatplum/Week36/SQL" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="DjangoTestsConfigurationType">
       <module name="Algorithm-Study-2025" />
@@ -248,7 +253,8 @@
       <workItem from="1750929445872" duration="667000" />
       <workItem from="1750940721253" duration="634000" />
       <workItem from="1751075937509" duration="670000" />
-      <workItem from="1751796847501" duration="355000" />
+      <workItem from="1751796847501" duration="1178000" />
+      <workItem from="1752387164985" duration="328000" />
     </task>
     <servers />
   </component>
