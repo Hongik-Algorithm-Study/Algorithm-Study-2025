@@ -1,0 +1,7 @@
+SELECT b.BOOK_ID,	a.AUTHOR_NAME,	to_char(b.PUBLISHED_DATE, 'yyyy-mm-dd')
+from book b, author a
+where
+    b.AUTHOR_ID = a.AUTHOR_ID
+    and
+    b.CATEGORY = '경제'
+order by b.PUBLISHED_DATE;
