@@ -1,0 +1,4 @@
+SELECT WAREHOUSE_ID,	WAREHOUSE_NAME,	ADDRESS,	nvl(FREEZER_YN, 'N')
+from FOOD_WAREHOUSE
+where address like '경기%'
+order by warehouse_id;
